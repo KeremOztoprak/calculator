@@ -13,7 +13,6 @@ function updateDisplay() {
 }
 
 keys.addEventListener('click',function(e) {
-    // debugger; 
     const element = e.target;
 
     if (!element.matches('button')) return;
